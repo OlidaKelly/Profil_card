@@ -1,0 +1,144 @@
+/* CONTAINER */
+
+.container-profil-div{
+  width: 100%;
+  height: 80vh;
+  margin-top: 12vh;
+  background-color: #DDE1E7;
+  display: flex;
+  justify-content: center;
+} 
+
+/* PROFIL DIV */
+
+.profil-div{
+  margin: 20px;
+  width: 100%;
+  max-width: 850px;
+  height: auto;
+  border: 3px solid #7614D5; 
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* HEADER */
+
+.header-profil{
+  width: 100%;
+  height: auto;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #7614D5;
+}
+
+h1{
+  font-size: 1.8rem;
+  padding:3px;
+}
+
+/* CONTAINER AVATAR DIV */
+
+.container-avatar-div{
+  margin-top: 5px;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+p{
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(77, 75, 75);
+}
+
+.avatar-section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-avatar{
+  cursor: pointer;
+  transform: scale(1);
+	transition: .3s ease-in-out;
+}
+
+.img-avatar:hover{
+  transform: scale(1.1);
+}
+
+hr{
+  color: black;
+  width: 280px;
+  height: 2px;
+}
+
+/* CHOICE SECTION */
+
+.choice-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.skin-colors-div{
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item{
+  margin: 8px 10px 8px 0;
+}
+
+.cercle-color{
+  margin:3px;
+  cursor: pointer;
+	transform: scale(1);
+	transition: .3s ease-in-out;
+}
+
+.cercle-color:hover{
+  transform: scale(1.3);
+}
+
+.t-shirt-colors-div{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* BUTTON */
+
+.validate{
+  width: 115px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 0;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  background-color: #1B39E2;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: -1px -1px 1px rgba(255, 255, 255, 1);
+}
+
+.validate:hover{
+  background-color:#7614D5 ;
+}
+
+/* @MEDIA */
+
+@media screen and (min-width: 420px){
+
+  p{
+    font-size: 1.2rem;
+  }
+  
+}
